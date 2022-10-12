@@ -1,0 +1,215 @@
+*{  
+    box-sizing: border-box;    
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+/*-----------------------------------------------------------------------------------------------*/
+
+
+.header{
+    background-image: linear-gradient(60deg,black,black,rgb(80, 67, 67), black);
+    box-shadow: gray 10px 10px 10px;     
+}
+.topLeft,
+.topRight{
+    display: inline-block;
+    vertical-align:middle;
+}
+.topLeft{
+    width: 30%;
+    text-align: center;
+}
+.topRight{
+    width: 69%;
+    text-align: center;
+}
+.topRight ul li{
+    display: inline;
+    color: antiquewhite;
+    font-family: "Exo 2",'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 20px;
+    border: white 2px solid;
+    box-shadow: 5px 5px 5px grey;
+    padding: 10px;
+}
+
+.topRight ul li:hover{
+    background-color: white;
+    color: black;
+    transition: 2s;
+}
+
+.topRight ul li:active{
+    border-radius: 3em;
+    transition: 0.5s;
+}
+
+
+
+/*-----------------------------------------------------------------------------------------------*/
+
+.quote{
+    font-family:"Tangerine",'Times New Roman', Times, serif;    
+    width: 100%;
+    text-align: center;
+    color:white;    
+    box-shadow: gray 5px 5px 5px;
+    border-radius: 25px;
+    margin-top: 15px;
+    background-image: linear-gradient(60deg,black,grey,black);    
+}
+.quote h2{
+    font-size: 45px;
+    letter-spacing: 5px;
+    padding: 10px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+
+.left,
+.centre,
+.right{
+    display: inline-block;
+    vertical-align: middle;    
+}
+.left{
+    width:24%;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 340px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight:500;
+    font-family: "Exo 2" 'Times New Roman', Times, serif;
+    padding: 5px;
+    border-radius: 40px;
+    background-image: linear-gradient(60deg,black,grey,black); 
+    box-shadow: 5px 5px 5px black;
+    }
+.left::-webkit-scrollbar {
+  width: 10px;
+ }
+
+/* Track */
+.left::-webkit-scrollbar-track {
+  background: #f1f1f1;
+ 
+}
+
+/* Handle */
+.left::-webkit-scrollbar-thumb {
+  background: #888;
+  
+}
+
+/* Handle on hover */
+.left::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.left dl dt{
+    padding: 5px;
+    font-weight: bold;
+    font-family: lobster;
+    }
+.left dl dd{
+    color: white;
+    font-family: lobster;
+}
+.left p{
+    text-align: center;
+}
+.left p a{
+    text-decoration: none;
+    border: solid black 2px;
+    border-radius: 4em;
+    padding: 3px;
+    font-size: 15px;
+    box-shadow: 2px 2px 2px black;
+    color: black;
+}
+.left p a:hover{
+    background-color: grey;
+    color: black;
+    transition: 0.5s;
+    font-weight: bold;
+}
+.left p a:active{
+    background-color: blue;
+    color: yellow;
+    font-weight: 600;
+}
+.centre{
+    width: 51%;
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 10px;
+ }
+div .centre p{
+    font-family: "Lato", 'Times New Roman', Times, serif;
+    font-size: 20px;  
+    font-weight: 700; 
+}
+div .centre p a{
+    text-decoration: none;
+    border: solid black 2px;
+    border-radius: 4em;
+    padding: 3px;
+    font-size: 15px;
+    box-shadow: 2px 2px 2px black;
+    color: black;
+}
+div .centre p a:hover{
+    background-color: grey;
+    color: black;
+    transition: 0.5s;
+    font-weight: bold;
+}
+div .centre p a:active{
+    background-color: blue;
+    color: yellow;
+    font-weight: 600;
+}
+.right{
+    width: 24%;    
+    background-image:linear-gradient(60deg,black,grey,black); 
+    text-align: center; 
+    margin: 0 auto;
+    border-radius: 2em;
+    box-shadow: 5px 5px 5px black;
+    
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+
+.bottom{
+    margin-top: 15px;
+    background-image: linear-gradient(60deg,grey,white,grey);
+    box-shadow: 10px 10px 10px black;
+    text-align: center;
+}
+
+.bottom h2{
+    font-family:"Tangerine",'Times New Roman', Times, serif; 
+    font-size: 50px;
+}
+
+
+/*-----------------------------------------------------------------------------------------------*/
+
+.foo{
+    text-align: center;
+    margin-bottom: 15px;
+    border-radius: 20em;
+    box-shadow: 10px 10px 10px black;
+    font-family:"Tangerine",'Times New Roman', Times, serif;  
+    width: 100%;
+}
+
+.foo h3{
+    font-size: 30px;
+}
